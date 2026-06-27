@@ -10,7 +10,7 @@ The application retrieves the most relevant transcript chunks using semantic sea
 
 ---
 
-🚀 Features
+## 🚀 Features
 
 - 🎬 Convert course videos (MP4) into audio using FFmpeg
 - 🎙️ Generate transcripts using OpenAI Whisper
@@ -25,7 +25,7 @@ The application retrieves the most relevant transcript chunks using semantic sea
 
 ---
 
-🏗️ System Architecture
+## 🏗️ System Architecture
 
                 User Query
                      │
@@ -52,7 +52,7 @@ The application retrieves the most relevant transcript chunks using semantic sea
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Backend
 
@@ -78,7 +78,7 @@ Frontend
 
 ---
 
-⚙️ Workflow
+## ⚙️ Workflow
 
 1. Convert MP4 videos to MP3 using FFmpeg.
 2. Generate transcripts using Whisper.
@@ -97,7 +97,7 @@ Frontend
 
 ---
 
-📸 Screenshots
+## 📸 Screenshots
 
 Home Page
 
@@ -111,7 +111,7 @@ screenshots/answer.png
 
 ---
 
-🧠 Example
+## 🧠 Example
 
 User Question
 
@@ -134,7 +134,7 @@ HTML headings are introduced using the
 <h1> to <h6> tags...
 ---
 
-📌 Future Improvements
+## 📌 Future Improvements
 
 - 🎥 Direct video playback from the application
 - ⏱️ Clickable timestamps
@@ -147,7 +147,7 @@ HTML headings are introduced using the
 
 ---
 
-💡 Learning Outcomes
+## 💡 Learning Outcomes
 
 This project demonstrates practical implementation of:
 
