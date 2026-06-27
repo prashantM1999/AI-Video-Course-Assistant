@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI Video Assistant</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🎥 AI Video Course Assistant</h1>
+
+    <p class="subtitle">
+        Ask anything about your course videos.
+    </p>
+
+    <div id="chat-box">
+
+    </div>
+
+    <div class="input-area">
+
+        <textarea
+                id="question"
+                placeholder="Ask your question..."
+                rows="2"></textarea>
+
+        <button id="send-btn">
+            Send
+        </button>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>

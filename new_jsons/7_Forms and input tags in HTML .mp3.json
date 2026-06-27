@@ -1,0 +1,593 @@
+{
+    "chunks": [
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 0.0,
+            "End": 24.719999313354492,
+            "text": "In this video, we will know what are forms and what is an input tag in a form. Using a form is a very important element of some websites because through the form, you submit data from client to server. These are the forms that you see on contact pages, Google Forms or Inquiry Forms. The date and time on the flight or railway ticket, where to go, all these details are also submitted through HTML forms. In the last video, very few people liked it."
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 24.719999313354492,
+            "End": 54.31999969482422,
+            "text": "So I will request you to like this video with high energy so that we can maintain high energy throughout the course. So let's go to the computer screen, see about the forms, see about the input tags, and see some best practices. Let's roll the intro. So guys, I have come to my computer screen. And now look, I'm going to make a folder here, which I'm going to name video 6, because this is the sixth video."
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 54.31999969482422,
+            "End": 89.16000366210938,
+            "text": "I will take the shift right, I will open with code, I have already told you all this. And here I am going to quickly make index.html and by putting an exclamation mark in it, what will I do? I will wrap the view word, I will turn on the screen cast mode, and you see here, I will write Forms, let's learn it. So I have set the title of this forms page here, and by setting the title, what happened is that the title will actually be visible on our page. Here I want to tell you about a very important setting, the show preview one, many of you have also pointed out to me in the comments that you have to click so many times, can you do something?"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 89.16000366210938,
+            "End": 127.83999633789062,
+            "text": "Yes you can, here you click on gear, click on settings below, and after clicking on settings, what do you simply do? Write live preview here, and we can actually set it, such that whenever we click, it will open on the external browser. So now I will close everything, as soon as I click here, it will open on the external browser, and I come to my browser, and the playlist of Sigma web development course is being accessed by clicking here on the star and here on the bookmark. But now I want to tell you that as soon as we click here, you see it opened, so if you want this, then do this, but sometimes what happens is that you want to prefer side-by-side view,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 127.83999633789062,
+            "End": 160.83999633789062,
+            "text": "and when would you like to do that, when you are actually working on a design using HTML, CSS, so whenever you are working on a design, definitely you will want to see live preview of it here, which is why this extension was made, and it was made different from the live server, so that you can see the preview on the side, now what we will do here, we will know about forms, what is a form? You know the name of the form, it means that it is a railway form, we go and fill it, with that our reservation is done, along with that, we fill the form of IIT JEE, we fill the form of NEET, we fill the form of any exam, so that our data can reach those who want it,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 160.83999633789062,
+            "End": 197.83999633789062,
+            "text": "so this is the form, HTML is a form tag, as soon as you write the form, you will hit enter, in this way, the first question will ask you what is the action of your form, GET or POST, I will tell you a very quick difference between GET request and POST request, when we will read the backend, GET request is a very simple request, and POST request we send in most of the cases, when we have to give a lot of data, like whenever our form will be POST, so in most of the cases, we will use POST request, and GET request is a very simple request, we just have to tell something to the server, and that's it, or we have to hit the server with a request, that's it,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 197.83999633789062,
+            "End": 231.83999633789062,
+            "text": "but if you didn't understand this thing, that should be fine, there is no problem, because we are going to do this in detail further, so form action is equal to POST, I have written here, now I can show you some input tags in it, I will tell you what are input tags, that what elements will come in your form, like you can put a date, you can put a name, you can put a phone number, you can say what is your age, it can be just a number, you want to put such things in the form, so I want to tell you that you put the input tag in the form,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 231.83999633789062,
+            "End": 258.8399963378906,
+            "text": "and there is a label tag, which is used to label that input, so what I will do here, you see the simplest input tag is type is equal to text, so I will put the type is equal to text input here, and you see here, if I zoom out and show you, so input type is equal to text, name is equal to username, placeholder is enter your username, and it will look something like this, you can say here enter your username, and the user in front of you will have to enter the username, I will write an H1 here,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 258.8399963378906,
+            "End": 288.8399963378906,
+            "text": "and I will write here, assume form to apply for TA, for sigma web dev TA, sigma web development course TA, means we are hiring teaching assistants for sigma web development course, so we can write something like this here, by the way I have put subtitles, if you have not accessed the playlist, then do access it, and along with that, I will show you one more thing, so these subtitles are very funny, I will show you, write sigma batch op,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 289.8399963378906,
+            "End": 305.8399963378906,
+            "text": "and give your village land to me, means if someone is watching English, or someone is watching who does not know Hindi at all, he will say, what happened so far, and give your village land to me, I like it a lot, anyway, now you can see here that I have put the H1 here, which is our heading, this is our main heading, enter your username, this is our input tag,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 305.8399963378906,
+            "End": 326.8399963378906,
+            "text": "along with the input tag, we use the label tag, now whose label is this, so for is equal to, I will write its ID, like I will write its ID username, and what will I do in for is equal to, I will put its ID in for is equal to, now what is this ID, I will tell you later, for now you just understand that this is a unique identifier of an element, to identify this element uniquely,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 326.8399963378906,
+            "End": 341.8399963378906,
+            "text": "like your Aadhar number cannot be of anyone else, in the same way, it has got this ID username, now it cannot be of anyone else, this is the ID, I will tell you more in detail later, but now understand this much, so I have written label for is equal to username, this is the input, and you can see here that the label will come here,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 341.8399963378906,
+            "End": 359.8399963378906,
+            "text": "so here I am seeing, I have not put anything in the label actually, so I will put enter your username, and you can see that as soon as I put this, you will get to see enter your username, after this you can enter your username, along with that, you can enter your expertise here, you can put anything, suppose I have to ask here what is your gender,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 359.8399963378906,
+            "End": 380.8399963378906,
+            "text": "so I can do something like this here, and you see enter your gender, and as soon as I did this, here I can ask you what is male or female, now what happens here is that sometimes we wrap it in div, what is div, div is our block element, and what are inline and block elements, I have not told you in this course yet, but I will tell you in the coming videos,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 380.8399963378906,
+            "End": 396.8399963378906,
+            "text": "so for now you just understand that I am putting it in div to give a new space, so as soon as I put it in div, it will come in a new space, yes, there is also a br tag, with which line break comes, but I don't prefer br tag, and you will get to know why, why we don't want to bloat our html with br tag,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 396.8399963378906,
+            "End": 413.8399963378906,
+            "text": "you will get to know this in the coming videos, now you see here, enter your username, here male or female, now you see here, as soon as I click on female, this radio button is selected, I am clicking on male, this is selected, why is this happening, because the label of this, I have put for is equal to female,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 413.8399963378906,
+            "End": 427.8399963378906,
+            "text": "and here I have put id female, and along with that, I have put the same name of both of them, here name is equal to gender, I have put this input tag also, and name is equal to gender, I have put this input radio tag also, and as soon as we have written type is equal to radio,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 427.8399963378906,
+            "End": 439.8399963378906,
+            "text": "it means this is a radio button, and if we have made its name same, then only one of these two can be selected at a time, that is, if I select this, then only this will happen, if I select this, then only this will happen, now I will show you one thing, if I mess up the id in the form of the label,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 439.8399963378906,
+            "End": 452.8399963378906,
+            "text": "and here also in the form, I don't mess up the first one, so when I click on the female of the other one, it will not be selected, I am clicking, it is not getting selected, I am clicking on male, it is getting selected, so to select the female, I will have to click here,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 452.8399963378906,
+            "End": 466.8399963378906,
+            "text": "so what I should do is, always put the id of the input tag, so you can see, here I have put the label for is equal to female, along with that, we have an input tag, which is type is equal to checkbox,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 466.8399963378906,
+            "End": 478.8399963378906,
+            "text": "now see here, if I put the input of type is equal to checkbox, I will do this work by putting it inside div, as soon as I do the format document by right clicking, our document will be very good, that is, its formatting and indentation will be very good,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 478.8399963378906,
+            "End": 491.8399963378906,
+            "text": "now see here, here I can check subscribe to newsletter, and the difference between radio button and checkbox is that, you can check different checkboxes, here if you want male or female, or give one of the options,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 491.8399963378906,
+            "End": 503.8399963378906,
+            "text": "then you can select it like this, after this we have text area and select tag, and I will show you what it is, text area and select tag works like this, as soon as you copy the text area here,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 503.8399963378906,
+            "End": 515.8400268554688,
+            "text": "and I will show you the text area, so text area input type is equal to text, but it has rows and column attribute, which helps you to make its size smaller, now see here, the placeholder inside it,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 515.8400268554688,
+            "End": 523.8400268554688,
+            "text": "I have given enter your comment here, so I have given enter your comment here, ideally, what we will do is, we will keep it empty, or we will not give at least new line in it,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 523.8400268554688,
+            "End": 530.8400268554688,
+            "text": "so I will stick it here, enter your comment here, and now it will reach to the left side, I will show you, so it has reached to the left side,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 530.8400268554688,
+            "End": 539.8400268554688,
+            "text": "enter your comment here, and any user can put his comment here, now see I have put the content of text area, enter your comment here, so ideally you will not want to do this,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 539.8400268554688,
+            "End": 548.8400268554688,
+            "text": "you will want to keep the text area empty, and you will want to put a label, and you can say label, for is equal to comment, and definitely we will put id here,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 548.8400268554688,
+            "End": 554.8400268554688,
+            "text": "whenever we put for, so inside for, the element for which it is, its id, now see here,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 554.8400268554688,
+            "End": 561.8400268554688,
+            "text": "enter your comment, if I write here, so what will happen, if I will write enter your comment, if I will write enter your comment,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 561.8400268554688,
+            "End": 568.8400268554688,
+            "text": "then enter your comment will come here, now you will say, this is not styled properly, this is not styled properly, because we will style it with CSS later,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 568.8400268554688,
+            "End": 575.8400268554688,
+            "text": "for now, I will put just br tag, but I don't recommend br tag, I am telling you this again, I don't recommend br tag at all,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 575.8400268554688,
+            "End": 581.8400268554688,
+            "text": "because there are problems with br tag, by the way, you should know br tag, there is a line break tag, a line break comes from it,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 581.8400268554688,
+            "End": 588.8400268554688,
+            "text": "now you must be feeling everything right, what is the problem with br tag, but I will tell you, br tag is something that I don't recommend, okay,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 588.8400268554688,
+            "End": 593.8400268554688,
+            "text": "it is not like that, you don't have to use it, but I don't recommend using it all the time, means what happens, the easiest thing people think,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 593.8400268554688,
+            "End": 601.8400268554688,
+            "text": "put br tag and keep adding new spaces, I oppose this thing a lot, so I will copy this, I will show you select tag, something like this,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 601.8400268554688,
+            "End": 608.8400268554688,
+            "text": "and you see here, as soon as I put select tag here, I put it inside div, so what happens in select, you get some options,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 608.8400268554688,
+            "End": 617.8400268554688,
+            "text": "the syntax of select is something like this, making apple, and you can use any one of the three, now you see here, any one of the three can be used,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 617.8400268554688,
+            "End": 624.8400268554688,
+            "text": "and what I did here, value is equal to apple, first I made select tag, gave name is equal to fruits, then option value is equal to apple,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 624.8400268554688,
+            "End": 634.8400268554688,
+            "text": "option value is equal to banana, option value is equal to cherry, when we will parse the data of this form, then I will tell you in the part of javascript, how to take this data and send it to the server,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 634.8400268554688,
+            "End": 640.8400268554688,
+            "text": "so there are a lot of things about the form, which are remaining, I am going to tell you, so stay tuned for that, okay,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 640.8400268554688,
+            "End": 646.8400268554688,
+            "text": "so this was about the forms, I had to tell you all the elements of the form, in this video, and along with that, I have told you about select tag,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 646.8400268554688,
+            "End": 651.8400268554688,
+            "text": "and all these things, about the form, the remaining attributes, like action, I told you,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 651.8400268554688,
+            "End": 659.8400268554688,
+            "text": "you can submit form on any page from action, and where it will handle the form, so you can give that data here, then there is a method, get request or post request,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 659.8400268554688,
+            "End": 669.8400268554688,
+            "text": "I will tell you the difference in these two, but I have told you in a very rough way, that get request is a very simple request, post request is used when, big data has to be sent to the server,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 669.8400268554688,
+            "End": 674.8400268554688,
+            "text": "because there is a limit of get request, in post request, you can send a lot of data, okay, in get request,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 674.8400268554688,
+            "End": 680.8400268554688,
+            "text": "we don't even send passwords, we send with the help of post request, okay, now here, I have told you the method,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 680.8400268554688,
+            "End": 685.8400268554688,
+            "text": "what happens in name, name is equal to username, means, we mark it with name, if we mark it with name,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 685.8400268554688,
+            "End": 691.8400268554688,
+            "text": "then the server will know, what is the value corresponding to the key, so the key value pair, which will go to the server, will go according to the name,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 691.8400268554688,
+            "End": 697.8400268554688,
+            "text": "its name and value will go, okay, so we will see this too, when we will do server side processing, what is the meaning of placeholder,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 697.8400268554688,
+            "End": 702.8400268554688,
+            "text": "placeholder means, what will be written inside, like here, enter your username, placeholder is there,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 702.8400268554688,
+            "End": 707.8400268554688,
+            "text": "if I click on this, then enter your username, is not written inside, I will write anything, see this came,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 707.8400268554688,
+            "End": 713.8400268554688,
+            "text": "but enter your username, is telling me here, that I have to put username in it, then after this, required means,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 713.8400268554688,
+            "End": 720.8400268554688,
+            "text": "you have to require it, you have to put its value, otherwise your form will not be submitted, so we will use this a lot, then after this,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 720.8400268554688,
+            "End": 725.8400268554688,
+            "text": "we get autofocus, what autofocus does, autofocus automatically, focuses the cursor, so I will show you,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 725.8400268554688,
+            "End": 731.8400268554688,
+            "text": "the magic of autofocus, so if you have written here, in input tag, autofocus, okay,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 731.8400268554688,
+            "End": 736.8400268554688,
+            "text": "so enter your username, I have written autofocus, now I will reload it, so see, if I type on this,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 736.8400268554688,
+            "End": 741.8400268554688,
+            "text": "then automatically, focus will be on it, so by autofocus, this happens, that whenever you type,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 741.8400268554688,
+            "End": 746.8400268554688,
+            "text": "it will be typed here, okay, I hope you are understanding, these things, now validation attributes,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 746.8400268554688,
+            "End": 751.8400268554688,
+            "text": "here, required, I have told you, you can give pattern, in which you can give,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 751.8400268554688,
+            "End": 756.8400268554688,
+            "text": "regular expression pattern, now don't get confused, don't say, what are you talking, we don't know regular expression,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 756.8400268554688,
+            "End": 761.8400268554688,
+            "text": "that's why I am sitting here, I will teach you all things, just understand, that we will accept, only one particular pattern,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 761.8400268554688,
+            "End": 766.8400268554688,
+            "text": "if we have put, pattern is equal to this, then you can't put, other than this pattern, okay,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 766.8400268554688,
+            "End": 771.8400268554688,
+            "text": "so this thing, you should know, here, so I hope, you are enjoying,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 771.8400268554688,
+            "End": 776.8400268554688,
+            "text": "in this video, and with that, in comment section, please write, sigma batch op,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 776.8400268554688,
+            "End": 781.8400268554688,
+            "text": "and in first video, please review, this course, because many people, still ask me,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 781.8400268554688,
+            "End": 786.8400268554688,
+            "text": "that should I do this course, or not, it is free course, if it is free course, then people don't value,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 786.8400268554688,
+            "End": 791.8400268554688,
+            "text": "they say, this course is free, so we should watch it, or take any paid course, and for those people,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 791.8400268554688,
+            "End": 796.8400268554688,
+            "text": "I would like to give a note, who told me, that we took paid course, what should we do now, we should collect that money,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 796.8400268554688,
+            "End": 801.8400268554688,
+            "text": "or we should join, sigma batch, you should join, sigma batch, cut your losses,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 801.8400268554688,
+            "End": 806.8400268554688,
+            "text": "and join sigma batch, because, see, what is the quality of this course, I don't think,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 806.8400268554688,
+            "End": 811.8400268554688,
+            "text": "I need to tell you, so you should, come and do this, you will get, everything here,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 811.8400268554688,
+            "End": 816.8400268554688,
+            "text": "I am telling you, if it is free, so in this course, I was going to sell you, for 10,000 rupees,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 816.8400268554688,
+            "End": 821.8400268554688,
+            "text": "that was the amount, which we fixed, I was going to sell you, for 10,000 rupees, this course,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 821.8400268554688,
+            "End": 826.8400268554688,
+            "text": "and I think, there is nothing wrong, in selling any course, if anyone is selling, there is nothing wrong,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 826.8400268554688,
+            "End": 831.8400268554688,
+            "text": "in selling any course, but the thing is, if you have bought, any other course, and you still feel,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 831.8400268554688,
+            "End": 836.8400268554688,
+            "text": "that sigma is a very good course, which is there, so you should join, cut your losses, and join,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 836.8400268554688,
+            "End": 841.8400268554688,
+            "text": "because once you, make your career, in future, you will not need, any of these things,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 841.8400268554688,
+            "End": 846.8400268554688,
+            "text": "in the coming time, and after that, we took a free course, from which we understood, and once you guys,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 846.8400268554688,
+            "End": 851.8400268554688,
+            "text": "make a career, then all these things, will not matter in the future, so do what is right for you, and do your work,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 851.8400268554688,
+            "End": 856.8400268554688,
+            "text": "while understanding, I hope, that you guys, are understanding things, so like the video,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 856.8400268554688,
+            "End": 861.8400268554688,
+            "text": "access the playlist, subscribe to the channel, and in the comment section below, while writing sigma batch op, name your village and town,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 861.8400268554688,
+            "End": 866.8400268554688,
+            "text": "in my name, for now, that's all for this video guys, thank you so much guys, for watching this video,"
+        },
+        {
+            "number": "7",
+            "title": "Forms and input tags in HTML ",
+            "Start": 866.8400268554688,
+            "End": 870.8400268554688,
+            "text": "and I will see you, next time. I'll see you, next time."
+        }
+    ],
+    "text": "In this video, we will know what are forms and what is an input tag in a form. Using a form is a very important element of some websites because through the form, you submit data from client to server. These are the forms that you see on contact pages, Google Forms or Inquiry Forms. The date and time on the flight or railway ticket, where to go, all these details are also submitted through HTML forms. In the last video, very few people liked it. So I will request you to like this video with high energy so that we can maintain high energy throughout the course. So let's go to the computer screen, see about the forms, see about the input tags, and see some best practices. Let's roll the intro. So guys, I have come to my computer screen. And now look, I'm going to make a folder here, which I'm going to name video 6, because this is the sixth video. I will take the shift right, I will open with code, I have already told you all this. And here I am going to quickly make index.html and by putting an exclamation mark in it, what will I do? I will wrap the view word, I will turn on the screen cast mode, and you see here, I will write Forms, let's learn it. So I have set the title of this forms page here, and by setting the title, what happened is that the title will actually be visible on our page. Here I want to tell you about a very important setting, the show preview one, many of you have also pointed out to me in the comments that you have to click so many times, can you do something? Yes you can, here you click on gear, click on settings below, and after clicking on settings, what do you simply do? Write live preview here, and we can actually set it, such that whenever we click, it will open on the external browser. So now I will close everything, as soon as I click here, it will open on the external browser, and I come to my browser, and the playlist of Sigma web development course is being accessed by clicking here on the star and here on the bookmark. But now I want to tell you that as soon as we click here, you see it opened, so if you want this, then do this, but sometimes what happens is that you want to prefer side-by-side view, and when would you like to do that, when you are actually working on a design using HTML, CSS, so whenever you are working on a design, definitely you will want to see live preview of it here, which is why this extension was made, and it was made different from the live server, so that you can see the preview on the side, now what we will do here, we will know about forms, what is a form? You know the name of the form, it means that it is a railway form, we go and fill it, with that our reservation is done, along with that, we fill the form of IIT JEE, we fill the form of NEET, we fill the form of any exam, so that our data can reach those who want it, so this is the form, HTML is a form tag, as soon as you write the form, you will hit enter, in this way, the first question will ask you what is the action of your form, GET or POST, I will tell you a very quick difference between GET request and POST request, when we will read the backend, GET request is a very simple request, and POST request we send in most of the cases, when we have to give a lot of data, like whenever our form will be POST, so in most of the cases, we will use POST request, and GET request is a very simple request, we just have to tell something to the server, and that's it, or we have to hit the server with a request, that's it, but if you didn't understand this thing, that should be fine, there is no problem, because we are going to do this in detail further, so form action is equal to POST, I have written here, now I can show you some input tags in it, I will tell you what are input tags, that what elements will come in your form, like you can put a date, you can put a name, you can put a phone number, you can say what is your age, it can be just a number, you want to put such things in the form, so I want to tell you that you put the input tag in the form, and there is a label tag, which is used to label that input, so what I will do here, you see the simplest input tag is type is equal to text, so I will put the type is equal to text input here, and you see here, if I zoom out and show you, so input type is equal to text, name is equal to username, placeholder is enter your username, and it will look something like this, you can say here enter your username, and the user in front of you will have to enter the username, I will write an H1 here, and I will write here, assume form to apply for TA, for sigma web dev TA, sigma web development course TA, means we are hiring teaching assistants for sigma web development course, so we can write something like this here, by the way I have put subtitles, if you have not accessed the playlist, then do access it, and along with that, I will show you one more thing, so these subtitles are very funny, I will show you, write sigma batch op, and give your village land to me, means if someone is watching English, or someone is watching who does not know Hindi at all, he will say, what happened so far, and give your village land to me, I like it a lot, anyway, now you can see here that I have put the H1 here, which is our heading, this is our main heading, enter your username, this is our input tag, along with the input tag, we use the label tag, now whose label is this, so for is equal to, I will write its ID, like I will write its ID username, and what will I do in for is equal to, I will put its ID in for is equal to, now what is this ID, I will tell you later, for now you just understand that this is a unique identifier of an element, to identify this element uniquely, like your Aadhar number cannot be of anyone else, in the same way, it has got this ID username, now it cannot be of anyone else, this is the ID, I will tell you more in detail later, but now understand this much, so I have written label for is equal to username, this is the input, and you can see here that the label will come here, so here I am seeing, I have not put anything in the label actually, so I will put enter your username, and you can see that as soon as I put this, you will get to see enter your username, after this you can enter your username, along with that, you can enter your expertise here, you can put anything, suppose I have to ask here what is your gender, so I can do something like this here, and you see enter your gender, and as soon as I did this, here I can ask you what is male or female, now what happens here is that sometimes we wrap it in div, what is div, div is our block element, and what are inline and block elements, I have not told you in this course yet, but I will tell you in the coming videos, so for now you just understand that I am putting it in div to give a new space, so as soon as I put it in div, it will come in a new space, yes, there is also a br tag, with which line break comes, but I don't prefer br tag, and you will get to know why, why we don't want to bloat our html with br tag, you will get to know this in the coming videos, now you see here, enter your username, here male or female, now you see here, as soon as I click on female, this radio button is selected, I am clicking on male, this is selected, why is this happening, because the label of this, I have put for is equal to female, and here I have put id female, and along with that, I have put the same name of both of them, here name is equal to gender, I have put this input tag also, and name is equal to gender, I have put this input radio tag also, and as soon as we have written type is equal to radio, it means this is a radio button, and if we have made its name same, then only one of these two can be selected at a time, that is, if I select this, then only this will happen, if I select this, then only this will happen, now I will show you one thing, if I mess up the id in the form of the label, and here also in the form, I don't mess up the first one, so when I click on the female of the other one, it will not be selected, I am clicking, it is not getting selected, I am clicking on male, it is getting selected, so to select the female, I will have to click here, so what I should do is, always put the id of the input tag, so you can see, here I have put the label for is equal to female, along with that, we have an input tag, which is type is equal to checkbox, now see here, if I put the input of type is equal to checkbox, I will do this work by putting it inside div, as soon as I do the format document by right clicking, our document will be very good, that is, its formatting and indentation will be very good, now see here, here I can check subscribe to newsletter, and the difference between radio button and checkbox is that, you can check different checkboxes, here if you want male or female, or give one of the options, then you can select it like this, after this we have text area and select tag, and I will show you what it is, text area and select tag works like this, as soon as you copy the text area here, and I will show you the text area, so text area input type is equal to text, but it has rows and column attribute, which helps you to make its size smaller, now see here, the placeholder inside it, I have given enter your comment here, so I have given enter your comment here, ideally, what we will do is, we will keep it empty, or we will not give at least new line in it, so I will stick it here, enter your comment here, and now it will reach to the left side, I will show you, so it has reached to the left side, enter your comment here, and any user can put his comment here, now see I have put the content of text area, enter your comment here, so ideally you will not want to do this, you will want to keep the text area empty, and you will want to put a label, and you can say label, for is equal to comment, and definitely we will put id here, whenever we put for, so inside for, the element for which it is, its id, now see here, enter your comment, if I write here, so what will happen, if I will write enter your comment, if I will write enter your comment, then enter your comment will come here, now you will say, this is not styled properly, this is not styled properly, because we will style it with CSS later, for now, I will put just br tag, but I don't recommend br tag, I am telling you this again, I don't recommend br tag at all, because there are problems with br tag, by the way, you should know br tag, there is a line break tag, a line break comes from it, now you must be feeling everything right, what is the problem with br tag, but I will tell you, br tag is something that I don't recommend, okay, it is not like that, you don't have to use it, but I don't recommend using it all the time, means what happens, the easiest thing people think, put br tag and keep adding new spaces, I oppose this thing a lot, so I will copy this, I will show you select tag, something like this, and you see here, as soon as I put select tag here, I put it inside div, so what happens in select, you get some options, the syntax of select is something like this, making apple, and you can use any one of the three, now you see here, any one of the three can be used, and what I did here, value is equal to apple, first I made select tag, gave name is equal to fruits, then option value is equal to apple, option value is equal to banana, option value is equal to cherry, when we will parse the data of this form, then I will tell you in the part of javascript, how to take this data and send it to the server, so there are a lot of things about the form, which are remaining, I am going to tell you, so stay tuned for that, okay, so this was about the forms, I had to tell you all the elements of the form, in this video, and along with that, I have told you about select tag, and all these things, about the form, the remaining attributes, like action, I told you, you can submit form on any page from action, and where it will handle the form, so you can give that data here, then there is a method, get request or post request, I will tell you the difference in these two, but I have told you in a very rough way, that get request is a very simple request, post request is used when, big data has to be sent to the server, because there is a limit of get request, in post request, you can send a lot of data, okay, in get request, we don't even send passwords, we send with the help of post request, okay, now here, I have told you the method, what happens in name, name is equal to username, means, we mark it with name, if we mark it with name, then the server will know, what is the value corresponding to the key, so the key value pair, which will go to the server, will go according to the name, its name and value will go, okay, so we will see this too, when we will do server side processing, what is the meaning of placeholder, placeholder means, what will be written inside, like here, enter your username, placeholder is there, if I click on this, then enter your username, is not written inside, I will write anything, see this came, but enter your username, is telling me here, that I have to put username in it, then after this, required means, you have to require it, you have to put its value, otherwise your form will not be submitted, so we will use this a lot, then after this, we get autofocus, what autofocus does, autofocus automatically, focuses the cursor, so I will show you, the magic of autofocus, so if you have written here, in input tag, autofocus, okay, so enter your username, I have written autofocus, now I will reload it, so see, if I type on this, then automatically, focus will be on it, so by autofocus, this happens, that whenever you type, it will be typed here, okay, I hope you are understanding, these things, now validation attributes, here, required, I have told you, you can give pattern, in which you can give, regular expression pattern, now don't get confused, don't say, what are you talking, we don't know regular expression, that's why I am sitting here, I will teach you all things, just understand, that we will accept, only one particular pattern, if we have put, pattern is equal to this, then you can't put, other than this pattern, okay, so this thing, you should know, here, so I hope, you are enjoying, in this video, and with that, in comment section, please write, sigma batch op, and in first video, please review, this course, because many people, still ask me, that should I do this course, or not, it is free course, if it is free course, then people don't value, they say, this course is free, so we should watch it, or take any paid course, and for those people, I would like to give a note, who told me, that we took paid course, what should we do now, we should collect that money, or we should join, sigma batch, you should join, sigma batch, cut your losses, and join sigma batch, because, see, what is the quality of this course, I don't think, I need to tell you, so you should, come and do this, you will get, everything here, I am telling you, if it is free, so in this course, I was going to sell you, for 10,000 rupees, that was the amount, which we fixed, I was going to sell you, for 10,000 rupees, this course, and I think, there is nothing wrong, in selling any course, if anyone is selling, there is nothing wrong, in selling any course, but the thing is, if you have bought, any other course, and you still feel, that sigma is a very good course, which is there, so you should join, cut your losses, and join, because once you, make your career, in future, you will not need, any of these things, in the coming time, and after that, we took a free course, from which we understood, and once you guys, make a career, then all these things, will not matter in the future, so do what is right for you, and do your work, while understanding, I hope, that you guys, are understanding things, so like the video, access the playlist, subscribe to the channel, and in the comment section below, while writing sigma batch op, name your village and town, in my name, for now, that's all for this video guys, thank you so much guys, for watching this video, and I will see you, next time. I'll see you, next time."
+}
