@@ -99,11 +99,11 @@ Frontend
 
 ## 📸 Screenshots
 
-### [Home Page](screenshots/home.png)
+![Home Page](screenshots/home.png)
 
 ---
 
-### [Example Response](screenshots/answer.png)
+![Example Response](screenshots/answer.png)
 
 ---
 
