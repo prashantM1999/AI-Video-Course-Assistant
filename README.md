@@ -1,4 +1,4 @@
-🎥 AI Video Course Assistant
+# 🎥 AI Video Course Assistant
 
 A Retrieval-Augmented Generation (RAG) application that enables users to search course videos using natural language and instantly find the exact video and timestamp where a topic is explained.
 
