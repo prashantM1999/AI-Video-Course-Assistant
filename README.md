@@ -126,8 +126,7 @@ HTML Tutorial
 
 💬 Explanation
 
-HTML headings are introduced using the
-<h1> to <h6> tags...
+You’ll find it in “Image, Lists, and Tables in HTML” (Lesson 5): - 421.68–426.68: Using the table tag and the tr tag. - 541.68–546.68: Understanding it’s a table in HTML. - 571.68–586.68: What a table looks like; practice making tables/projects. - 796.68–801.68: Whole table with head content and foot content. Simple idea: A table is built with a table tag. Inside it, you add row tags (tr). Tables can include head content and foot content.
 ---
 
 ## 📌 Future Improvements
